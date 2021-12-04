@@ -3,8 +3,6 @@
 
 int main(void) {
 	printf("enter 2 number");
-	printf("enter 2 number");
-
 	int num1,num2,choice,result;
 	scanf("%d%d",&num1,&num2);
 
