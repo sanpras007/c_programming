@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	printf("enter 2 number");
+	printf("enter 2 number");
+
+	int num1,num2,choice,result;
+	scanf("%d%d",&num1,&num2);
+
+	printf("1 for addition \n 2 for supration \n 3 for multiplication \n 4 for division");
+	scanf("%d",&choice);
+	if(choice==1){
+		result=num1+num2;
+	}else if(choice==2){
+		result=num1-num2;
+	}else if(choice==3){
+		result=num1*num2;
+	}else if(choice==4){
+		result=num1/num2;
+	}else{
+		printf("you are a fool");
+	}
+	printf("result is %d",result);
+
+
+	return EXIT_SUCCESS;
+}
